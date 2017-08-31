@@ -1,3 +1,4 @@
+#bryanvaughanduke
 import random
 from time import sleep
 
@@ -14,10 +15,11 @@ from time import sleep
 
 
 def intro():
-    return input('This is a magic 8 ball game... think really hard of a wish and hit enter')
+    return input('This is a magic 8 ball game...Think of a question.... and hit enter')
 
 def get_input():
     """this function gets user input"""
+
     return get_fortune
 
 def get_randnum():
@@ -51,7 +53,7 @@ def get_fortune(randnum):
         fortune = "My reply is no"
         return fortune
     elif randnum == 9:
-        fortune = "My sources say hell no"
+        fortune = "Are you really sure about that?"
         return fortune
 
 # get fourtun based on random number
